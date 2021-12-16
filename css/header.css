@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    display: flex;
+}
+.logo_text{
+    width: 210px;
+    margin-top: 53px;
+    margin-bottom: 47px;
+    color: white;
+}
+.logo_text__main{
+    font: Palatino Linotype;
+    font-family: Palatino Linotype;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 29px;
+    padding-right: 10px;
+}
+.logo_text__before::after{
+    content: '';
+    display: inline-block;
+   width: 140px;
+    height: 1px;
+    background: rgb(255, 255, 255);
+}
+
+.logo_img{
+    max-width: 140px;    
+}
