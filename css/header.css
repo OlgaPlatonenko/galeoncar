@@ -24,6 +24,18 @@
     display: inline-block;
    width: 140px;
     height: 1px;
+    vertical-align:middle;
+    background: rgb(255, 255, 255);
+}
+
+.logo_text__after::before{
+    content: '';
+    display: inline-block;
+    width: 81px;
+    height: 1px;
+    margin-right: 9px;
+    vertical-align:middle;
+    text-align: center;
     background: rgb(255, 255, 255);
 }
 
