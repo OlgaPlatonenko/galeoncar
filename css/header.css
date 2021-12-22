@@ -3,6 +3,14 @@
     background-color: black;
     padding: 10px;
 }
+
+.header_content{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content: center;
+}
+
 .logo{
     display: flex;
 }
